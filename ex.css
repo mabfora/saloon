@@ -1,0 +1,357 @@
+
+body {
+	font-family: 'Dancing Script', cursive;
+	width:100%;
+	margin:0px, auto;
+}
+
+
+/* HEADER Title and Image */
+h1 {
+	font-weight: bold;
+	font-size: 60px;
+	color: #FB6798; /*#EA7BA1;*/
+	text-align: center;
+	/* margin-left: 50px; */
+	letter-spacing: 4px;
+	padding-top: 143px;
+  
+}
+
+.cvete {
+	-webkit-filter: hue-rotate(90deg); /*image filter */ 
+	filter: hue-rotate(45deg); 
+}
+
+.cvete:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.cvete {
+	float:right;	
+	height:350px;
+	width: 450px;
+	margin-top: -60px;
+}
+
+#header3 h3 {
+	text-align: center;
+
+	color: #7EC384; /*#A8DFD1;   #7E1E85; */
+	padding-top:1%;
+	padding-bottom: 1%;
+	margin-left: 25%;
+}
+
+/* #header3 { */
+	/* padding-top:1%; */
+	
+/* } */
+
+header {
+	background-color:#FEECEE; /*#F5EEF2;*/
+	margin-top: -4%;
+}
+
+/* FOOTER */
+
+#copyrights {
+	font-size: 1em;
+	font-weight:bold;
+	text-align: center; 
+	margin-right: 200px;
+	color:  #FEC1CB;
+	clear: both;
+	margin-top:3%;
+
+}
+
+
+nav ul li {
+	display: inline-block;
+	margin: 0 350px 0 100px;
+	list-style-type: none;	
+}
+
+.footerlist ul li a {
+	color:#3F7856;
+	font-weight: bold;
+}
+
+
+.footerlist {
+	text-align: center;
+	margin-top:2%;
+	margin-left: 8%;
+}
+
+/* NAVIGATION Images Home Page */
+
+.navimages {
+	
+	height:150px;
+	width: 250px; 
+	border-radius: 50%; 
+}
+
+
+.centeralign {
+	width: 100%;
+	text-align: center;
+	
+}
+
+
+.container { 
+	  width: 1350px;
+	  height: 350px;
+	  border:none;/*1px solid black;   */
+	  display: -webkit-flex; 
+	  -webkit-align-items: center; 
+	  display: flex;
+	  align-items: center;
+	
+} 
+
+
+/* BUTTONS HOME PAGE*/
+
+.box1 {
+  position: relative;
+  width: 50%;
+}
+
+.box1 .btn1 {
+  opacity:0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  -ms-transform: translate(-50%, -50%);
+  background-color:  #DBB9B8;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+.btn1:hover  {
+	transition: .5s ease;
+	opacity:1;
+}
+
+.box2 {
+  position: relative;
+  width: 50%;
+}
+
+.box2 .btn2 {
+  opacity:0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:  #DBB9B8;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn2:hover  {
+	transition: .5s ease;
+	opacity:1;
+}
+.box3 {
+  position: relative;
+  width: 50%;
+}
+
+.box3 .btn3 {
+  opacity:0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:  #DBB9B8;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn3:hover  {
+	transition: .5s ease;
+	opacity:1;
+}
+
+
+
+/* SOCIAL ICONS in contacts and pricelist */
+.icons {
+	text-align: center;
+	padding-left: 16%;
+	margin-right: 16%; 
+}
+.socialicons {
+	height: 50px;
+	width: 50px;
+    margin-top: 18%;
+	}
+
+footer a {
+	text-decoration: none;
+}
+
+.joinmeonsocial {
+	text-align: center;
+	margin-top:200%;
+	margin-bottom: -20%;
+}
+
+
+/* PRICE LIST MAIN PART 1*/
+.main {
+	
+}
+
+.mainpart1{
+	
+	display: inline-block;
+	background-color:#E88989;
+	margin-top:-5%;
+	width: 100%;
+	height: 200px;
+	
+}
+.gift {
+/* position: relative; */
+float: left; 
+margin:10px 10px 10px 10px;
+width:48%;
+}
+
+.loyalty {
+/* position: relative; */
+float: left; 
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 20px;
+margin-right: 10px;
+width: 48%;
+
+}
+
+.borderstyle1 {
+	background-color: #FBEBEB;
+	border-radius:25px;
+	border: 2px solid #00090E;
+	height: 170px;
+}
+
+
+.borderstyle2 {
+	background-color: #FBEBEB;
+	border-radius:25px;
+	border: 2px solid #00090E;
+	height: 170px;
+	
+}
+
+.onethirdgift p img{
+	
+float: left;	
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+
+.onethirdloyalty p img{
+position: relative;
+left: 10px;
+
+}
+
+.twothirdsgift {
+font-family: 'El Messiri', sans-serif;
+margin-top:40px;
+}
+
+.twothirdsloyalty {
+position: relative;	
+top: -10px;
+left: 180px;
+font-family: 'El Messiri', sans-serif;
+}
+
+.twothirdsgift p {
+margin-top: -15px;
+}
+
+.twothirdsloyalty p {
+margin-top: -15px;
+}
+
+/* PRICE LIST MAIN PART 2*/
+
+.space {
+	float:none;
+	width: 1200px;
+	max-width:100%;
+	margin: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+}
+
+.halftable {
+	position: relative;
+	float:left;
+	width: 50%;
+	padding:10px;
+	-webkit-box-sizing: border-box;
+}
+
+/*NAILS*/
+
+.row img {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;	
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
